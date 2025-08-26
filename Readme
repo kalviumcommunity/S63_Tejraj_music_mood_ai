@@ -1,0 +1,22 @@
+🎵 Mood-Based Song Recommendation AI
+
+This project is an AI-powered music recommendation system that suggests songs based on the user’s mood. The application uses Natural Language Processing (NLP) to analyze emotions and returns curated song recommendations.
+
+It is built with:
+
+Frontend: React.js (Vite)
+
+Backend: Node.js + Express
+
+AI / ML: TensorFlow.js / HuggingFace API (NLP)
+
+Database: MongoDB (Atlas)
+
+🚀 Features
+
+✅ Detects mood from text input (e.g., “I am happy today”)
+✅ Suggests songs matching the mood (happy, sad, energetic, relaxed, etc.)
+✅ Clean & responsive frontend with React
+✅ REST API backend with Express
+✅ Songs stored and fetched from MongoDB
+✅ Easy to extend with more moods and songs
