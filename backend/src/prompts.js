@@ -5,6 +5,10 @@ export function buildPrompt({ mode, moodText }) {
   const baseInstruction =
     "You are a helpful music recommender. Return 5 songs as JSON array with fields: title, artist. Also include a single-sentence rationale.";
 
+  Zero_Shot_Prompting
+// zero shot prompt 
+=======
+ main
   const zeroShot = () =>
     `${baseInstruction}\nMood: "${moodText}".`;
 
@@ -43,10 +47,18 @@ Return JSON only and a short "rationale" string (max 1 sentence).`;
   };
 
   return {
+ Zero_Shot_Prompting
+    "zero-shot": zeroShot(), // zero one shot prompt 
+=======
     "zero-shot": zeroShot(),
+ main
     "one-shot": oneShot(), // one shot prompting
     "multi-shot": multiShot(),
     "chain-of-thought": chainOfThought(),
     "dynamic-prompt": dynamicPrompt()
+ Zero_Shot_Prompting
+  }[mode] || zeroShot(); // zero shot 
+=======
   }[mode] || zeroShot();
+ main
 }
