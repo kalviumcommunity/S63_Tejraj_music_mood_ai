@@ -103,6 +103,7 @@ app.post("/api/evaluate", (req, res) => {
 app.listen(PORT, () => console.log(`Backend on http://localhost:${PORT}`));
 
 // utils
+// function
 function normalizeMood(text) {
   const t = text.toLowerCase();
   if (t.includes("happy") || t.includes("joy")) return "happy";
