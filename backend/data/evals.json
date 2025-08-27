@@ -1,0 +1,574 @@
+[
+  {
+    "mode": "zero-shot",
+    "temperature": 0.3,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-26T11:33:38.691Z"
+  },
+  {
+    "mode": "multi-shot",
+    "temperature": 0.3,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-26T11:33:44.630Z"
+  },
+  {
+    "mode": "multi-shot",
+    "temperature": 0.3,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-26T11:33:46.331Z"
+  },
+  {
+    "vote": "up",
+    "song": {
+      "title": "Shake It Off",
+      "artist": "Taylor Swift",
+      "spotifyUrl": null
+    },
+    "mode": "multi-shot",
+    "temperature": 0.3,
+    "ts": "2025-08-26T11:34:02.132Z"
+  },
+  {
+    "vote": "down",
+    "song": {
+      "title": "Shake It Off",
+      "artist": "Taylor Swift",
+      "spotifyUrl": null
+    },
+    "mode": "multi-shot",
+    "temperature": 0.3,
+    "ts": "2025-08-26T11:34:02.729Z"
+  },
+  {
+    "mode": "zero-shot",
+    "temperature": 0.7,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-26T11:39:23.271Z"
+  },
+  {
+    "mode": "one-shot",
+    "temperature": 0.7,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-26T11:39:27.550Z"
+  },
+  {
+    "mode": "one-shot",
+    "temperature": 0.8,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-26T11:39:29.489Z"
+  },
+  {
+    "mode": "one-shot",
+    "temperature": 0.8,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-26T11:39:29.892Z"
+  },
+  {
+    "mode": "one-shot",
+    "temperature": 0.8,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-26T11:39:30.507Z"
+  },
+  {
+    "mode": "one-shot",
+    "temperature": 0.8,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-26T11:39:30.667Z"
+  },
+  {
+    "mode": "one-shot",
+    "temperature": 0.8,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-26T11:39:31.314Z"
+  },
+  {
+    "mode": "one-shot",
+    "temperature": 0.8,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-26T11:39:31.396Z"
+  },
+  {
+    "mode": "one-shot",
+    "temperature": 0.8,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-26T11:39:31.595Z"
+  },
+  {
+    "mode": "one-shot",
+    "temperature": 0.8,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-26T11:39:31.830Z"
+  },
+  {
+    "mode": "one-shot",
+    "temperature": 0.8,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-26T11:39:31.866Z"
+  },
+  {
+    "mode": "one-shot",
+    "temperature": 0.8,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-26T11:39:32.176Z"
+  },
+  {
+    "mode": "one-shot",
+    "temperature": 0.8,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-26T11:39:32.410Z"
+  },
+  {
+    "mode": "zero-shot",
+    "temperature": 0.7,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-26T11:42:27.649Z"
+  },
+  {
+    "mode": "zero-shot",
+    "temperature": 0.7,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-26T11:42:27.748Z"
+  },
+  {
+    "mode": "zero-shot",
+    "temperature": 0.7,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-26T11:42:27.985Z"
+  },
+  {
+    "mode": "zero-shot",
+    "temperature": 0.7,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-26T11:42:28.222Z"
+  },
+  {
+    "vote": "up",
+    "song": {
+      "title": "Happy",
+      "artist": "Pharrell Williams",
+      "spotifyUrl": null
+    },
+    "mode": "zero-shot",
+    "temperature": 0.7,
+    "ts": "2025-08-26T11:42:38.341Z"
+  },
+  {
+    "vote": "down",
+    "song": {
+      "title": "Happy",
+      "artist": "Pharrell Williams",
+      "spotifyUrl": null
+    },
+    "mode": "zero-shot",
+    "temperature": 0.7,
+    "ts": "2025-08-26T11:42:39.409Z"
+  },
+  {
+    "mode": "multi-shot",
+    "temperature": 0.7,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-26T11:42:49.075Z"
+  },
+  {
+    "vote": "up",
+    "song": {
+      "title": "Happy",
+      "artist": "Pharrell Williams",
+      "spotifyUrl": null
+    },
+    "mode": "multi-shot",
+    "temperature": 0.8,
+    "ts": "2025-08-26T11:42:51.100Z"
+  },
+  {
+    "mode": "multi-shot",
+    "temperature": 0.8,
+    "moodText": "sad",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-26T11:43:01.816Z"
+  },
+  {
+    "vote": "down",
+    "song": {
+      "title": "Skinny Love",
+      "artist": "Bon Iver",
+      "spotifyUrl": null
+    },
+    "mode": "multi-shot",
+    "temperature": 0.8,
+    "ts": "2025-08-26T11:43:08.061Z"
+  },
+  {
+    "vote": "up",
+    "song": {
+      "title": "Fix You",
+      "artist": "Coldplay",
+      "spotifyUrl": null
+    },
+    "mode": "multi-shot",
+    "temperature": 0.8,
+    "ts": "2025-08-26T11:43:09.355Z"
+  },
+  {
+    "vote": "up",
+    "song": {
+      "title": "Someone Like You",
+      "artist": "Adele",
+      "spotifyUrl": null
+    },
+    "mode": "multi-shot",
+    "temperature": 0.8,
+    "ts": "2025-08-26T11:43:10.026Z"
+  },
+  {
+    "mode": "zero-shot",
+    "temperature": 0.4,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-27T06:08:39.854Z"
+  },
+  {
+    "mode": "zero-shot",
+    "temperature": 0.4,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-27T06:08:39.871Z"
+  },
+  {
+    "mode": "zero-shot",
+    "temperature": 0.7,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-27T06:08:41.086Z"
+  },
+  {
+    "mode": "chain-of-thought",
+    "temperature": 0.7,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-27T06:08:46.571Z"
+  },
+  {
+    "mode": "chain-of-thought",
+    "temperature": 0.7,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-27T06:08:47.486Z"
+  },
+  {
+    "mode": "chain-of-thought",
+    "temperature": 0.7,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-27T06:08:47.975Z"
+  },
+  {
+    "mode": "chain-of-thought",
+    "temperature": 0.7,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-27T06:08:48.276Z"
+  },
+  {
+    "mode": "chain-of-thought",
+    "temperature": 0.7,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-27T06:08:48.837Z"
+  },
+  {
+    "mode": "chain-of-thought",
+    "temperature": 0.9,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-27T06:08:50.470Z"
+  },
+  {
+    "mode": "chain-of-thought",
+    "temperature": 0.9,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-27T06:08:50.822Z"
+  },
+  {
+    "mode": "chain-of-thought",
+    "temperature": 0.9,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-27T06:08:51.059Z"
+  },
+  {
+    "mode": "chain-of-thought",
+    "temperature": 0.9,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-27T06:08:51.252Z"
+  },
+  {
+    "mode": "chain-of-thought",
+    "temperature": 0.9,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-27T06:08:51.506Z"
+  },
+  {
+    "mode": "chain-of-thought",
+    "temperature": 0.9,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-27T06:08:51.717Z"
+  },
+  {
+    "mode": "chain-of-thought",
+    "temperature": 0.9,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-27T06:08:51.848Z"
+  },
+  {
+    "mode": "chain-of-thought",
+    "temperature": 0.9,
+    "moodText": "happy and nostalgic",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-27T06:08:52.351Z"
+  },
+  {
+    "mode": "chain-of-thought",
+    "temperature": 0.9,
+    "moodText": "sad",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-27T06:09:01.440Z"
+  },
+  {
+    "mode": "chain-of-thought",
+    "temperature": 0.9,
+    "moodText": "sad",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-27T06:09:01.491Z"
+  },
+  {
+    "mode": "chain-of-thought",
+    "temperature": 0.9,
+    "moodText": "sad",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-27T06:09:02.140Z"
+  },
+  {
+    "mode": "chain-of-thought",
+    "temperature": 0.9,
+    "moodText": "sad",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-27T06:09:02.181Z"
+  },
+  {
+    "mode": "chain-of-thought",
+    "temperature": 0.9,
+    "moodText": "sad",
+    "heuristics": {
+      "itemCount": 3,
+      "titleArtistOK": true
+    },
+    "count": 3,
+    "ts": "2025-08-27T06:09:02.227Z"
+  },
+  {
+    "vote": "up",
+    "song": {
+      "title": "Someone Like You",
+      "artist": "Adele",
+      "spotifyUrl": null
+    },
+    "mode": "chain-of-thought",
+    "temperature": 0.9,
+    "ts": "2025-08-27T06:09:09.793Z"
+  }
+]
