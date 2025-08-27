@@ -8,13 +8,16 @@ export function buildPrompt({ mode, moodText }) {
   const zeroShot = () =>
     `${baseInstruction}\nMood: "${moodText}".`;
 
-  const oneShot = () =>
+// one shot prompting
+
+const oneShot = () =>
     `${baseInstruction}
 Example:
 Mood: "happy"
 Output (JSON array, 2 sample items):
 [{"title":"Happy","artist":"Pharrell Williams"},{"title":"Good Vibrations","artist":"The Beach Boys"}]
 Now for Mood: "${moodText}".`;
+
 
   const multiShot = () =>
     `${baseInstruction}
@@ -41,7 +44,7 @@ Return JSON only and a short "rationale" string (max 1 sentence).`;
 
   return {
     "zero-shot": zeroShot(),
-    "one-shot": oneShot(),
+    "one-shot": oneShot(), // one shot prompting
     "multi-shot": multiShot(),
     "chain-of-thought": chainOfThought(),
     "dynamic-prompt": dynamicPrompt()
