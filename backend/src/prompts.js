@@ -50,6 +50,7 @@ Return JSON only and a short "rationale" string (max 1 sentence).`;
     "one-shot": oneShot(), // one shot prompting
     "multi-shot": multiShot(), // multi shot prompting 
     "chain-of-thought": chainOfThought(),
-    "dynamic-prompt": dynamicPrompt() // Dyanmic Prompt 
-  }[mode] || zeroShot(); // zero shot 
+    "dynamic-prompt": dynamicPrompt() // Dynamic Prompt
+  }[mode] || zeroShot(); // zero shot
 }
+  
