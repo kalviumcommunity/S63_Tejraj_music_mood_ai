@@ -38,6 +38,7 @@ Think briefly about mood characteristics (genres/tempos/instruments), then outpu
 Mood: "${moodText}".
 Return JSON only and a short "rationale" string (max 1 sentence).`;
 
+// dyanmic prompt 
   const dynamicPrompt = () => {
     // If user typed a long text, nudge style. Short -> direct.
     const long = moodText.length > 40;
@@ -56,10 +57,16 @@ Return JSON only and a short "rationale" string (max 1 sentence).`;
     "one-shot": oneShot(), // one shot prompting
     "multi-shot": multiShot(), // multi shot prompting 
     "chain-of-thought": chainOfThought(),
+ Temperature
+    "dynamic-prompt": dynamicPrompt() // Dynamic Prompt
+  }[mode] || zeroShot(); // zero shot
+=======
     "dynamic-prompt": dynamicPrompt()
  Zero_Shot_Prompting
   }[mode] || zeroShot(); // zero shot 
 =======
   }[mode] || zeroShot();
  main
+ main
 }
+  
