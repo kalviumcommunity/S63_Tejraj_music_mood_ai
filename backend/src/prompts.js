@@ -23,6 +23,7 @@ Output (JSON array, 2 sample items):
 Now for Mood: "${moodText}".`;
 
 
+// multi shot prompting 
   const multiShot = () =>
     `${baseInstruction}
 Examples:
@@ -53,7 +54,7 @@ Return JSON only and a short "rationale" string (max 1 sentence).`;
     "zero-shot": zeroShot(),
  main
     "one-shot": oneShot(), // one shot prompting
-    "multi-shot": multiShot(),
+    "multi-shot": multiShot(), // multi shot prompting 
     "chain-of-thought": chainOfThought(),
     "dynamic-prompt": dynamicPrompt()
  Zero_Shot_Prompting
