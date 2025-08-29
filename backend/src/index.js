@@ -34,30 +34,31 @@ if (process.env.OPENAI_API_KEY) {
 app.get("/health", (_, res) => res.json({ ok: true }));
 
 // ---- User System (simple username-based token) ----
-//post api 
+//post api
+   
 app.post("/api/login", (req, res) => {
   const { username } = req.body || {};
   if (!username) return res.status(400).json({ error: "username required" });
   const token = issueToken(username.trim());
   res.json({ token, username });
-});
-
+});  
+  
 app.get("/api/favorites", authMiddleware, (req, res) => {
   res.json({ favorites: getFavorites(req.user) });
-});
-
+});   
+  
 app.post("/api/favorites", authMiddleware, (req, res) => {
   const { song } = req.body || {};
   if (!song?.title || !song?.artist) return res.status(400).json({ error: "invalid song" });
   addFavorite(req.user, song);
   res.json({ ok: true });
-});
+});    
 
 // ---- Suggestion endpoint (core) ----
 app.post("/api/suggest", async (req, res) => {
   try {
-    const { moodText = "", mode = "zero-shot", temperature = 0.7 } = req.body || {};
-    const prompt = buildPrompt({ mode, moodText });
+    const { moodText = "", mode = "zero-shot", temperature = 0.7, top_p = 0.9 } = req.body || {};
+      const prompt = buildPrompt({ mode, moodText });
 
     let aiSongs = [];
     let rationale = "Used fallback seeds due to missing AI key.";
@@ -66,6 +67,7 @@ app.post("/api/suggest", async (req, res) => {
       const resp = await openai.chat.completions.create({
         model: "gpt-4o-mini",
         temperature,
+        top_p,
         messages: [
           { role: "system", content: "Return ONLY JSON with keys songs (array) and rationale (string)." },
           { role: "user", content: prompt }
