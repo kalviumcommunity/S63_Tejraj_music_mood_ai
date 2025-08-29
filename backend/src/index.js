@@ -34,6 +34,7 @@ if (process.env.OPENAI_API_KEY) {
 app.get("/health", (_, res) => res.json({ ok: true }));
 
 // ---- User System (simple username-based token) ----
+//post api 
 app.post("/api/login", (req, res) => {
   const { username } = req.body || {};
   if (!username) return res.status(400).json({ error: "username required" });
