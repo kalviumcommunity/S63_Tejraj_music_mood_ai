@@ -57,8 +57,8 @@ app.post("/api/favorites", authMiddleware, (req, res) => {
 // ---- Suggestion endpoint (core) ----
 app.post("/api/suggest", async (req, res) => {
   try {
-    const { moodText = "", mode = "zero-shot", temperature = 0.7 } = req.body || {};
-    const prompt = buildPrompt({ mode, moodText });
+    const { moodText = "", mode = "zero-shot", temperature = 0.7, top_p = 0.9 } = req.body || {};
+      const prompt = buildPrompt({ mode, moodText });
 
     let aiSongs = [];
     let rationale = "Used fallback seeds due to missing AI key.";
@@ -67,6 +67,7 @@ app.post("/api/suggest", async (req, res) => {
       const resp = await openai.chat.completions.create({
         model: "gpt-4o-mini",
         temperature,
+        top_p,
         messages: [
           { role: "system", content: "Return ONLY JSON with keys songs (array) and rationale (string)." },
           { role: "user", content: prompt }
